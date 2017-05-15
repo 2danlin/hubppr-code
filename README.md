@@ -23,7 +23,7 @@ The ./dataset/dblp/attribute.txt file includes the information of the node and e
 n=613586<br>
 m=3980318<br>
 
-The dataset/dblp/graph.txt file includes the information of each edge in the form of <source target>. For instance, the first three lines of dataset/dblp/graph.txt includes:<br>
+The dataset/dblp/graph.txt file includes the information of each edge in the form of "sourceid targetid" on each line. For instance, the first three lines of dataset/dblp/graph.txt includes:<br>
 0 1<br>
 0 2<br>
 0 3<br>
