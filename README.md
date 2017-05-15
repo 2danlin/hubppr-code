@@ -1,8 +1,9 @@
 # HubPPR
 
+
+##Environment and Preparation
+
 Lib requirement: Boost version>=boost1.55 (tested on Ubuntu)
-
-
 
 The following manual assumes that you are in the code repository.
 
@@ -19,7 +20,7 @@ $chmod +x *.sh <br>
 Dataset format: <br>
 Assume that we have a folder ./dataset which stores all the testing datatsets.<br> 
 Each dataset will include an own folder in this directory. For instance, the dblp dataset will be in a folder named ./dataset/dblp/, and includes two files: attribute.txt, graph.txt.<br>
-The ./dataset/dblp/attribute.txt file includes the information of the node and edge:
+The ./dataset/dblp/attribute.txt file includes the information of the node and edge:<br>
 n=613586<br>
 m=3980318<br>
 
