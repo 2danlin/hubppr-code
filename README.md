@@ -1,8 +1,7 @@
 # HubPPR
 
 
-##Environment and Preparation
-
+## Environment and Preparation
 Lib requirement: Boost version>=boost1.55 (tested on Ubuntu)
 
 The following manual assumes that you are in the code repository.
