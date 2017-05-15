@@ -31,7 +31,7 @@ The dataset/dblp/graph.txt file includes the information of each edge in the for
 
 indicating that there are three edges starting from node 0, and ending at 1, 2, and 3 respectively<br>
 
-##Generate query
+## Generate query
 $./generate-query.sh dataset-name dataset-dir<br>
 For instance, to generate query for dblp dataset, we then run the script as: <br>
 $./generate-query.sh dblp ./dataset/
@@ -47,10 +47,10 @@ $./select-hub.sh dblp ./dataset/
 
 $./build-index.sh dataset-name dataset-dir<br>
 
-##Run p2p query with HubPPR 
+## Run p2p query with HubPPR 
 $./run-hubppr.sh dataset-name dataset-dir<br>
 
-##Run top-k query with HubPPR
+## Run top-k query with HubPPR
 $./topk-hubppr.sh dataset-name dataset-dir k_size T_size<br>
 
 For instance, to test on dblp with k=8 and target set size |T| = 400, we run the following command:<br>
